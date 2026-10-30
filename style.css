@@ -1,0 +1,64 @@
+* {
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+[href="#"] {
+    color: green;
+}
+
+.special-link {
+    color: blue;
+}
+
+.nav-list li:nth-child(3) a {
+    color: #b59b00;
+}
+
+#first-post h2,
+#first-post h2 + p {
+    color: orange;
+}
+
+.post:nth-child(2) h2,
+.post:nth-child(2) h2 + p {
+    color: purple;
+}
+
+.widget h3 {
+    color: pink;
+}
+
+.color-list li:first-child {
+    color: gray;
+}
+
+.color-list li:nth-child(2) {
+    color: brown;
+}
+
+.highlighted {
+    color: black;
+}
+
+.important-widget h3,
+.important-widget .note {
+    color: maroon;
+}
+
+input[placeholder="Белый"] {
+    color: white;
+    background-color: black;
+}
+
+input[placeholder="Белый"]::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.submit-btn {
+    color: black;
+}
